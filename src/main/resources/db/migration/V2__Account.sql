@@ -1,0 +1,6 @@
+CREATE TABLE `account` (
+	`id` SERIAL NOT NULL,
+	`email` VARCHAR(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+	`pass` VARCHAR(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB;
